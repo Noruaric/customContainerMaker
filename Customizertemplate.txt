@@ -1,0 +1,64 @@
+//Do not modify the following line. The pack will not work correctly if you do.
+{"namespace":"customizer","custom_properties":{"$enable_custom_songs":true,
+
+//This file was genareted with a python app but was created by AgentMindStorm (@agentms_). Feel free to modify and share it! Please don't remove this line. :)
+//To keep the file working correctly, don't add or modify any quotation marks, dollar signs, commas, colons, brackets, or properties on the left side of the colon.
+
+//==================
+//Sidebar Visibility
+//This setting determines whether the sidebar is used in-game.
+//==================
+
+"$enable_sidebar": true,
+
+//==================
+//Section Visibility
+//Enabling these settings will cause the section to be visible by default without a toggle. (Does not apply when the music player has a sidebar.)
+//==================
+
+"$always_show_emote_section": false,
+"$always_show_information_section": false,
+"$always_show_custom_section": false,
+
+//==================
+//Custom Song Visibility
+//These settings control which custom songs are visible in groups of 25. Enable them to show additional custom songs.
+//==================
+
+"$show_custom_songs_1_to_25": true,
+"$show_custom_songs_26_to_50": true,
+"$show_custom_songs_51_to_75": true,
+"$show_custom_songs_76_to_100": true,
+
+//==================
+//Text Colors
+//These settings control the color of the text in the music player in the Red/Green/Blue format. Divide the RGB value by 255 to get the required decimal input.
+//Example: To input a red value of 132, a green value of 255, and a blue value of 243, divide each by 255. The results are 0.5176, 1.0, and 0.9529. The array for this color would look like [ 0.5176, 1.0, 0.9529 ].
+//==================
+
+"$song_button_top_text_color": [ 1.0, 1.0, 1.0 ],
+"$song_button_bottom_text_color": [ 0.7, 0.7, 0.7 ],
+"$section_title_text_color": [ 1.0, 1.0, 1.0 ],
+"$toggle_text_color": [ 1.0, 1.0, 1.0 ],
+"$sidebar_text_color": [ 1.0, 1.0, 1.0 ],
+
+//==================
+//Duration Bar Appearance
+//These settings control the color of the duration bar and the number of notches that appear on it. Duration bar settings can only be set to specific values, otherwise the bar color will be set to white and the notch count set to 0.
+//Colors: "pink", "blue", "red", "green", "yellow", "purple", "white", "gold", "orange", "brown", "dark_gray", "light_gray", "cyan", or "dark_green".
+//Notch counts: 0, 6, 10, 12, or 20.
+//==================
+
+"$duration_bar_color": "gold",
+"$duration_bar_notch_count": 10,
+
+//==================
+//Custom Titles, Artists, and Durations
+//These will rename the songs to anything you want. Adding an artist or duration to a song will add a second line beneath the title in the music player.
+//==================
+
+"$custom_section_title": "",
+"$custom_section_title_sidebar": "",
+
+"$custom_album_title": "",
+"$custom_album_artist": "",
